@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+*{
+    font-family: "Cinzel", serif;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100%;
+    min-height: 100vh;
+    background: url("../img/her.png");
+    background-size: cover;
+    background-position: center;
+}
+
+header nav {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px
+}
+
+header ul a {
+    color: whitesmoke;
+    margin: 0 12px;
+    padding: 15px 14px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav .logo{
+    width: 130px;
+}
+
+
+header ul a:hover{
+    border-bottom: 1px solid beige;
+}
+
+#hero{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 12%;
+    text-align: left;
+
+}
+
+#hero h2 {
+    font-size: 70px;
+    font-weight: 500;
+    color: #fff;
+}
+
+#hero h1 {
+    font-size: 30px;
+    color: whitesmoke;
+    font-weight: 400;
+    margin-bottom: 80px;
+}
+
+#hero button {
+    color: rgb(255, 251, 251);
+    background: #be920d;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#arriendo {
+    width: 100%;
+    position: relative;
+    padding: 120px 0;
+    text-align: center;
+    background-color: black;
+}
+
+#arriendo h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: #be920d;
+}
+
+#arriendo p {
+    font-size: 22px;
+    margin-bottom: 50px;
+    color: floralwhite;
+}
+
+#arriendo .fila {
+    display: flex;
+    justify-content: center;
+}
+
+#arriendo article {
+    margin: 20px 50px;
+    position: relative;
+}
+
+#arriendo article img {
+    border: 5px solid #f7f7f7; /* Agrega un borde */
+    border-radius: 10px;       /* Bordes redondeados */
+    padding: 5px;              /* Espacio entre borde e imagen */
+    transition: transform 0.3s ease; /* Transición suave para el efecto */
+}
+
+
+#arriendo article img:hover {
+    transform: scale(1.1); /* Agranda la imagen en un 10% al pasar el ratón */
+}
+
+#arriendo article h3 {
+    position: absolute;
+    top: 120px;
+    color: aliceblue;
+    width: 100%;
+    text-align: center;
+}
+
+#venta {
+    width: 100%;
+    padding: 100px 0 50px;
+    background: url(../img/Frame\ 9.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+#venta h2 {
+    color: #be920d;
+    font-size: 50px;
+    margin: 30px;
+}
+
+#venta .fila {
+display: flex;
+justify-content: center;
+}
+
+#venta article{
+    margin: 20px 20px;
+}
+
+
+#venta article img {
+    border: 5px solid #f7f7f7; /* Agrega un borde */
+    border-radius: 10px;       /* Bordes redondeados */
+    padding: 5px;              /* Espacio entre borde e imagen */
+    transition: transform 0.3s ease; /* Transición suave para el efecto */
+}
+
+#venta article img:hover {
+    transform: scale(1.1); /* Agranda la imagen en un 10% al pasar el ratón */
+}
+
+#venta h3{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#avaluos {
+    width: 100%;
+    position: relative;
+    padding: 120px 0;
+    text-align: center;
+    background-color: black;
+}
+
+#avaluos h2{
+    color: #be920d;
+    font-size: 50px;
+    margin: 30px;
+    text-align: center;
+}
+
+#avaluos p{
+    font-size: 22px;
+    margin-bottom: 50px;
+    color: floralwhite;
+}
+
+#avaluos form {
+    width: 100%;                 /* Asegura que el formulario ocupe el ancho completo */
+    max-width: 600px;            /* Limita el ancho máximo */
+    margin: 0 auto;              /* Centra el formulario */
+    text-align: left;            /* Alinea el texto de etiquetas a la izquierda */
+}
+
+#avaluos form label,
+#avaluos form input,
+#avaluos form textarea,
+#avaluos form select {
+    width: 100%;                 /* Ocupa el ancho completo del formulario */
+    margin: 10px 0;              /* Espacio entre los campos */
+    font-size: 18px;             /* Aumenta el tamaño de la fuente */
+}
+
+#avaluos form input,
+#avaluos form textarea,
+#avaluos form select {
+    padding: 12px;               /* Añade espacio interior */
+    border: 1px solid #ccc;      /* Borde alrededor de los cuadros */
+    border-radius: 5px;          /* Bordes redondeados */
+}
+
+#avaluos form textarea {
+    resize: vertical;            /* Permite redimensionar el cuadro verticalmente */
+    height: 100px;               /* Altura del campo de texto */
+}
+
+#avaluos button {
+    width: 100%;                 /* Botón ocupa el ancho completo */
+    padding: 15px;               /* Espaciado interior */
+    background-color: #be920d;   /* Color de fondo del botón */
+    color: #fff;                 /* Color de texto del botón */
+    font-size: 20px;             /* Tamaño de fuente del botón */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;             /* Cambia el cursor a puntero */
+}
+
+#avaluos button:hover {
+    background-color: #a07b0a;   /* Color del botón al pasar el mouse */
+}
+
+#ubicacion{
+    width: 100%;
+    padding: 100px 0 50px;
+    background: url(../img/Frame\ 10.png);
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+}
+#ubicacion h2{
+    color: #be920d;
+    font-size: 50px;
+    margin: 30px;
+    text-align: center;
+}
+
+
+#ubicacion .map-container {
+    padding: 10px; /* Añade espacio alrededor del mapa */
+    border-radius: 10px; /* Bordes redondeados opcionales */
+    width: fit-content;
+    margin: 120px 100px; /* Centra el contenedor */
+}
+
+#ubicacion .map-container iframe {
+    border: none; /* Elimina cualquier borde del iframe */
+    width: 550%;
+    height: 500px; /* Ajusta la altura como prefieras */
+}
+
+
+#contacto{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    padding: 80px 0;
+    background: #be920d;
+    
+}
+
+#contacto h2{
+    font-size: 50px;
+    margin-bottom: 30PX;
+    color: #fff;
+}
+
+#contacto p{
+    font-size: 20px;
+    margin-bottom:  30px;
+    color: #fff;
+}
+
+#contacto form{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#contacto form input{
+    width: 38%;
+    padding: 12px 20px;
+    font-size: 20px;
+    margin: 20px ;
+    background-color: black;
+    color: #fff;
+}
+
+#contacto form select{
+    width: 43%;
+    padding: 12px 30px;
+    font-size: 20px;
+    margin: 20px;
+    background-color: black;
+    color: #fff;
+}
+
+#contacto button{
+
+    background: #000;
+    color: white;
+    font-size: 22px;
+    padding: 12px 30px;
+    border-radius: 6px;
+    position: absolute;
+    top: 87%;
+    left: 47%;
+}
+
+footer {
+    background: black;
+    color: white;
+    padding:  40px;
+    text-align: center;
+}

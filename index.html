@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website SELECTHOME</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!--cabecera del sitio-->
+    <header>
+        <nav>
+            <a href="index.html"><img class="logo" src="img/logo.png" alt="LOGO SELECTHOME"></a>
+            <ul>
+                <a href="#">INICIO</a>
+                <a href="#arriendo">ARRIENDO</a>
+                <a href="#venta">VENTA</a>
+                <a href="#avaluos">AVALUOS</a>
+                <a href="#ubicacion">UBICACION</a>
+                <a href="#contacto">CONTACTO</a>
+            </ul>
+        </nav>
+        <div id="hero">
+            <h2>SELECTHOME</h2>
+            <H1>EL MEJOR SITIO WEB DE INMOBILIARIA PARA ENCONTRAR TU HOGAR</H1>
+            <button>EMPEZAR</button>
+        </div>
+    </header>
+    <!-- secciones principales del sitio -->
+    <main>
+        <section id="arriendo">
+            <h2>ARRIENDO</h2>
+            <P>En SELECTHOME tenemos las majeores obciones para tu hogar <br> 
+                selecciona las casas, apartamentos y cabañas que mas te gusten 
+            </P>
+            <div class="fila">
+                <article>
+                    <img src="img/casa1.png" alt="casa">
+                    <P>
+                        Contiene 6 habitaciones <br>
+                        2 baños <br>
+                        y las mejores comodidades
+                    </P>
+                </article>
+
+                <article>
+                    <img src="img/Frame 2.png" alt="casa2">
+                    <P>
+                        Cuenta con 2 pisos <br>
+                        5 habitaciones <br>
+                        3 baños y piscina
+                    </P>
+                </article>
+
+                <article>
+                    <img src="img/Frame 3.png" alt="Casa3">
+                    <P>
+                        apartamento cuenta <br>
+                        con 2 habitaciones <br>
+                        y comodidades de lujo
+                    </P>
+                </article>
+
+                <article>
+                    <img src="img/Frame 4.png" alt="Casa4">
+                    <P>
+                        apartamento Cuenta <br>
+                        con 3 habitaciones <br>
+                        y comodidades de lujo
+                    </P>
+                </article>
+            </div>
+        </section>
+        <section id="venta">
+            <h2>VENTA</h2>
+            <div class="fila">
+                <article>
+                    <img src="img/Frame 5.png" alt="Casa5">
+                    <h3>CABAÑA JUNTO AL LAGO</h3>
+                </article>
+                <article>
+                    <img src="img/Frame 6.png" alt="CASA6">
+                    <h3>Cabaña EN EL CENTRO DEL BOSQUE</h3>
+                </article>
+
+                <article>
+                    <img src="img/Frame 7.png" alt="CASA7">
+                    <h3>CABAÑA EN EL BOSQUE</h3>
+                </article>
+
+                <article>
+                    <img src="img/Frame 8.png" alt="CASA8">
+                    <h3>CASA URBANA</h3>
+                </article>
+            </div>
+        </section>
+        <section id="avaluos">
+            <h2>AVALUOS</h2>
+            <P>Avalues su inmueble con nosotros</P>
+            <form action="#">
+                <label for="">Nombres y Apellidos</label> <br>
+                <input type="text"placeholder= "Nombres y Apellidos"> <br>
+                <label for="">Telefono</label> <br>
+                <input type="number"placeholder="Contacto"> <br>
+                <label for="#">Email</label> <br>
+                <input type="Email"placeholder="Email"> <br>
+                <textarea name="mensaje" id="">mensaje</textarea> <br>
+                <label for="#">Ciudad</label>
+                <select name="" id="">
+                    <option value="">Seleccione la Ciudad</option>
+                    <option value="Bogota">Bogotá</option>
+                    <option value="cali">Cali</option>
+                    <option value="Medellin">Medellin</option>
+                </select>
+                <br>
+                <button>ENVIAR SOLICITUD</button>
+            </form>
+        </section>
+        <section id="ubicacion">
+            <h2>UBICACION</h2>
+            <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.8750601227252!2d-74.09458482418673!3d4.616367642381188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f996f784e82a1%3A0xde1500803ab6185c!2sSENA%20Centro%20de%20Dise%C3%B1o%20y%20Metrolog%C3%ADa!5e0!3m2!1ses!2s!4v1729170785084!5m2!1ses!2s" width="50%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            </div>
+        </section>
+        <section id="contacto">
+            <h2>CONTACTO</h2>
+            <P>
+                Comparte con nosotros tus datos de contacto
+            </P>
+            <form action="#">
+                <input type="text"placeholder="Nombres:"> 
+                <input type="text"placeholder="TELEFONO">
+                <input type="text"placeholder="EMAIL">
+                <select name="" id="">
+                    <option value="">DEPENDENCIA</option>
+                    <option value="Arriendo">ARRIENDO</option>
+                    <option value="Ventas">VENTAS</option>
+                    <option value="Avaluos">AVALUOS</option>
+                </select>
+                <select name="" id="">
+                    <option value="">CIUDAD</option>
+                    <option value="Bogota">BOGOTA</option>
+                    <option value="Cali">CALI</option>
+                    <option value="Medellin">MEDELLIN</option>
+                </select>
+                <button>ENVIAR</button>
+            </form>
+        </section>
+    </main>
+    <!-- pie de pagina-->
+    <footer>
+            contacto@selecthome.com <br>
+            +57 3212444445 <br>
+            Cr 90 #93 - 20 
+        </p>
+    </footer>
+</body>
+</html>
